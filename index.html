@@ -23,6 +23,7 @@
 
     <link rel="stylesheet" href="assets/css/helpers.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	</head>
 	<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
       
@@ -116,7 +117,6 @@
             <div class="text-center">
               <img src="assets/images/powerbank.png" class="rounded" width="30%" alt="powerbank-zero">
             </div>
-            
           </div>  
         </div>
         <div style="position: absolute; bottom: 0; right: 0; width: 30%; text-align:right;">
@@ -230,6 +230,24 @@
     <script src="assets/js/jquery.easing.1.3.js"></script>
 
     <script src="assets/js/main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#f0eb80",
+      "text": "#0f0e0e"
+    },
+    "button": {
+      "background": "#f1d600",
+      "text": "#000000"
+    }
+  },
+  "showLink": false
+});
+</script>
 
 	</body>
 </html>
