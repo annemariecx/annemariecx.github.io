@@ -19,8 +19,8 @@ header {
 
 header video {
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 100%;
+  left: 100%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
