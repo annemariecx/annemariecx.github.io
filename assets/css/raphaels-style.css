@@ -17,6 +17,13 @@ header {
   background-color: #eee;
 }
 
+video {
+  position: absolute;
+  z-index: -1;
+  opacity: 1.0;
+  width: 100%;
+}
+
 header video {
   position: absolute;
   top: 50%;
